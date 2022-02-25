@@ -9,7 +9,7 @@ jobs:
           name: install aws
           command: |
             sudo apt-get install pip3
-            sudo pip3 install awscli
+            sudo pip install awscli
       - run:
           name: "export env var."
           command: |
