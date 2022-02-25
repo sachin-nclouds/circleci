@@ -1,9 +1,8 @@
 version: 2
 jobs:
   dockerbuild:
-    machine:
-      python:
-        version: 3.6.1 
+    docker:
+      - image: cimg/python:3.10.2 
     steps:
       - checkout
       - run:
