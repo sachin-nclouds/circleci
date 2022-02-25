@@ -2,7 +2,7 @@ version: 2
 jobs:
   dockerbuild:
     machine:
-      image: ubuntu-2004:202201-02
+      image: circleci/classic:201808-01
     steps:
       - checkout
       - run:
