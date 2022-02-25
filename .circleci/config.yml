@@ -1,7 +1,9 @@
 version: 2
 jobs:
   dockerbuild:
-    machine: true
+    machine:
+      python:
+        version: 3.6.1 
     steps:
       - checkout
       - run:
